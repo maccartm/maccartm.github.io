@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit&display=swap);
+
+/* page */ 
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font: 300 16px 'Outfit';
+  margin: 40px auto;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: cyan;
+}
+
+hr {
+  color: hsl(215, 51%, 70%);
+  background-color: hsl(215, 51%, 70%);
+  border: 0px solid hsl(215, 51%, 70%);
+  height: 1.5px;
+}
+
+/* card */
+
+#card {
+  background-color: hsl(216, 50%, 16%);
+  color: hsl(215, 51%, 70%);
+  padding: 25px;
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: #0004 0px 25px 45px;
+  margin: auto;
+}
+
+/* currency thumbnail */
+#thumbnail {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  margin: 0 auto;
+}
+
+#thumbnail div {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  background-color: rgba(0, 255, 255, 0.7);
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  transition: .4s;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+}
+
+#thumbnail div:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#thumbnail>img {
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+#overlay {
+  align-self: center;
+  width: 45px;
+  height: 45px;
+}
+
+/* currency */
+
+#currency {
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+/* creator */
+
+#creator {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+#creator img {
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+#creator span {
+  margin-left: 15px;
+}
+
+/* equivalent value */
+
+#valuation {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  letter-spacing: 1px;
+  align-items: stretch;
+  margin-bottom: 20px;
+}
+
+#equivalent {
+  color: cyan;
+  display: flex;
+  align-items: center;
+  
+}
+
+#equivalent span {
+  margin-left: 5px;
+}
+
+#time {
+  display: flex;
+  align-items: center;
+}
+
+#time span {
+  margin-left: 5px; 
+}
+
+/* attribution */
+
+#attribution {
+  font-size: 11px; 
+  text-align: center; 
+  margin-top: 15px;
+}
+
+#attribution a { 
+  color: hsl(228, 45%, 44%); 
+  text-decoration: none;
+}
+
+#attribution a:hover {
+  color: cyan;
+}
