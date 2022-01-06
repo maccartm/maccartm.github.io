@@ -56,9 +56,9 @@ Users should be able to:
 
 Originally I was looking for some examples of how to overlay images, but these ended up leading me down the wrong path for the solution. I ended up overlaying a `div` using a similar technique (as the `view` symbol was so small, the container was required to fill the overlay).
 
-[Google style guide](https://google.github.io/styleguide/htmlcssguide.html)
-[W3 CSS guide](https://www.w3schools.com/css/default.asp)
-[CSS Cheat Sheet](https://htmlcheatsheet.com/css/)
+* [Google style guide](https://google.github.io/styleguide/htmlcssguide.html)
+* [W3 CSS guide](https://www.w3schools.com/css/default.asp)
+* [CSS Cheat Sheet](https://htmlcheatsheet.com/css/)
 
 ## Author
 
