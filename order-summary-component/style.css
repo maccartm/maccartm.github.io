@@ -1,0 +1,187 @@
+@import url(https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap);
+
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  font: 500 16px "Red Hat Display";
+}
+
+/* page defaults */
+
+article {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: hsl(225, 100%, 94%) url(./images/pattern-background-mobile.svg) no-repeat;
+  background-size: cover;
+  position: absolute;  
+  background-position-y: calc(-100vh / 2);
+  background-position-x: -100px;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* card */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 85%;
+  width: 80%;
+  max-height: 600px;
+  min-height: 500px;
+  max-width: 450px;
+  min-width: 325px;
+  margin: 10% 10% 20px 10%;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+/* header */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#banner {
+  border-radius: 15px 15px 0px 0px;
+  width: 100%;
+}
+
+header h1 {
+  font-weight: 900;
+  font-size: 20px;  
+  color: hsl(223, 47%, 23%);
+  text-shadow: 0 1px currentColor, 1px 0 currentColor, 1px 1px currentColor;
+  letter-spacing: 1px;
+  margin: 25px auto 20px auto;
+}
+
+header p{
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  font-size: 16px;
+  margin: auto 20px 20px 20px;
+}
+
+/* plan detail section */
+
+#plan-details {
+  display: flex;
+  margin: 0px 10px 10px 10px;
+  background-color: hsl(225, 100%, 98%);
+  padding: 15px;
+  border-radius: 15px;
+  align-items: center;
+  width:inherit;
+}
+
+#price {
+  display: flex;
+  flex-direction: column;
+  margin: auto 15px auto 15px;
+  width: 100%;
+}
+
+
+#plan-details h2 {
+  font-weight: 500;
+  font-size: 16px;
+  color: hsl(223, 47%, 23%);
+  text-shadow: 0 1px currentColor, 1px 0 currentColor, 1px 1px currentColor;
+}
+
+#plan-details span {
+  color: hsl(224, 23%, 55%);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+#plan-details a {
+  font-size: 14px;
+  font-weight: 900;
+  color: hsl(245, 75%, 52%);
+}
+
+#plan-details a:hover {
+  color: hsl(245, 75%, 65%);
+  text-decoration: none;
+}
+
+/* nav */
+
+#navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+}
+
+#submit-button {
+  display: flex;
+  background-color: hsl(245, 75%, 52%);
+  width: inherit;
+  height: 60px;
+  border-radius: 15px;
+  margin: 10px 5% 20px 5%;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  box-shadow: 0 10px 30px 0 hsl(224deg 23% 55%);
+}
+
+#submit-button:hover {
+  background-color: hsl(245, 75%, 65%);
+}
+
+#navigation a {
+  font-weight: 900;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+
+#navigation a:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+/* footer */ 
+
+footer { 
+  font-size: 11px; 
+  text-align: center; 
+  justify-self: center; 
+}
+
+footer a { 
+  color: hsl(245, 75%, 52%);
+  font-size: inherit;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: hsl(245, 75%, 65%);
+}
+@media screen and (min-width: 600px) {
+
+  #page {
+    background: hsl(225, 100%, 94%) url(./images/pattern-background-desktop.svg) no-repeat;
+    position: absolute;
+    background-size: cover;
+    background-position-y: calc(-100vh / 2);
+  }
+}
