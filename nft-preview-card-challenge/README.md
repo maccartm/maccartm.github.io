@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/maccartm/nft-preview-card-challenge)
+- [Solution URL](https://github.com/maccartm/maccartm.github.io/tree/main/nft-preview-card-challenge)
 - [Live Site URL](https://maccartm.github.io/nft-preview-card-challenge/nft.html)
 
 ## My process
