@@ -6,6 +6,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [The solution](#the-solution)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -24,6 +25,10 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
+
+### The solution
+
+![Solution Preview for the NFT preview card component coding challenge](https://github.com/maccartm/nft-preview-card-challenge/blob/main/NFT%20card%20thumbnail.png)
 
 ### Links
 
@@ -63,4 +68,3 @@ Originally I was looking for some examples of how to overlay images, but these e
 ## Author
 
 - Website - [Michael](https://www.github.com/maccartm)
-
