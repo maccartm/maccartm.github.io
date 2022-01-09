@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Solution Preview for the NFT preview card component coding challenge](https://github.com/maccartm/order-summary-component/blob/main/NFT%20card%20thumbnail.png))
+![Solution Preview for the NFT preview card component coding challenge](https://github.com/maccartm/maccartm.github.io/blob/main/order-summary-component/order-summary-thumbnail.png)
 
 ### Links
 
